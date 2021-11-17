@@ -7,7 +7,7 @@ const option1 = process.argv[3];
 const option2 = process.argv[4];
 const option3 = process.argv[5];
 
-const clone = require('./commands/clone.js');
+const get = require('./commands/get.js');
 const help = require('./commands/help.js');
 const init = require('./commands/init.js');
 const update = require('./commands/update.js'); 
@@ -43,13 +43,12 @@ const runCommand = (command, args, options = undefined) => {
 
 switch(command){
 
-case "--clone":
-case "-c":
-case "clone":
-clone(option1, option2, runCommand);
+case "--get":
+case "-g":
+case "get":
+get(option1, option2, runCommand);
 break;
 
-case "--clone":
 case "-h":
 case "help":
 help(option1, option2, runCommand);
