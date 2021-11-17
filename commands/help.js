@@ -3,21 +3,21 @@ const help = (option1, option2, runCommand) => {
   switch(option1){
       default: 
       console.log(chalk`
-        {blue.bold emz} - {green.bold Clone a project template all around the world}
+        {blue.bold emz} - {green.bold Integrate Bot Commands}
 
         {yellow.underline.bold Usage}: 
          emz <command> <option1>
 
         {yellow.underline.bold Options}: 
          -h, --help     See a list of commands, options available 
-         -c, --clone    Clone A Project Template
-         -i, --init     Setup A Config File
-         -l, --latest   Check For Updates
+         -g, --get      Clone a bot command
+         -i, --init     Setup a config file
+         -l, --latest   Check for updates
 
         {yellow.underline.bold Commands}: 
          help       Help Command
-         clone      Clone A Project Template
-         init       Setup A Config File
+         get        Clone a bot command
+         init       Setup a config file
 
         {green.underline.bold Links}:
          Github Repository   {grey https://github.com/emzjs/emz}
