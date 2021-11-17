@@ -1,7 +1,7 @@
 {
   "name": "emz",
-  "version": "1.0.3",
-  "description": "A CLI to automatically clone a project template all around the world",
+  "version": "2.0.0-dev",
+  "description": "Integrate Discord Bot Commands",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,10 @@
   "keywords": [
     "cli",
     "projects",
-    "clone"
+    "clone",
+    "bot",
+    "commands",
+    "discordapp"
   ],
   "author": "Joe Lee <tojoeleeofficial@gmail.com>",
   "license": "Apache-2.0",
@@ -26,6 +29,8 @@
   "homepage": "https://github.com/emzjs/emz#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.1.0",
+    "string-width": "^4.2.3"
   }
 }
